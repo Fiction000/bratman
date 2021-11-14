@@ -164,7 +164,7 @@ const game2 = new Game(
 
 document.addEventListener('keydown', (ev) => {
   // console.log(ev.key);
-  if (ev.key === 'e') {
+  if (ev.key === 'a') {
     if (game1.missileInterval <= 0) {
       game1.missileInterval = 40;
       game1.missiles.push(new Missile(150, game1.h));
